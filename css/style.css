@@ -1,7 +1,9 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 2;
     box-sizing: calc();
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 body {
@@ -45,6 +47,7 @@ header nav {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 
+
 }
 
 header nav ul {
@@ -73,5 +76,35 @@ header .nav-logo span {
 
 main ul {
     display: flex;
-    gap: 1rep;
+    gap: 1rem;
+}
+
+main img {
+    width: 25%;
+    display: flex;
+    align-content: flex-end;
+    align-self: flex-end;
+    border-radius: 100%;
+    margin-left: 65%;
+}
+
+
+/* .hero .icon-wrapper {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    background: black;
+    color: white;
+    border-radius: 100%;
+    border-right: 0.5rem
+} */
+.hero .container {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    color: crimson;
+    border-radius: 100%;
+    border-right: 2rem;
 }
