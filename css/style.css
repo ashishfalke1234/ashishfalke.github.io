@@ -70,3 +70,8 @@ header .nav-logo span {
     }
 
 }
+
+main ul {
+    display: flex;
+    gap: 1rep;
+}
